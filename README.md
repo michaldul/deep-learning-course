@@ -11,3 +11,6 @@ Scores:
 3. **regularization**
   * Multinomial classifier, SGD, L2 regularization, 5001 steps: test 88.4%, valid 80.3%
   * NN 784 x 1024[RELU] x 10, SGD, L2 regularization, 5001 steps: test 93.6%, valid 86.6%
+4. **convolutions**
+  * Default covnet with 2 convs, 1 fully conected layer: 88.9% on test
+  * Default covnet but with max_pool instead of simple striding: 89.6% on test
